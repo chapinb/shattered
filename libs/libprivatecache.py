@@ -118,6 +118,11 @@ def pvtcache_sorter(case_path, parser_folder):
                 src = input_dir + item
                 copier = html_searches + item + ".html"
                 shutil.copy(src, copier)
+            elif item[:2] == "s_":
+                #print("Item name: ", item," is an PNG Image")
+                src = input_dir + item
+                copier = png_cache + item + ".png"
+                shutil.copy(src, copier)
             elif item[:3] == "ss_":
                 #print("Item name: ", item," is an PNG screenshot")
                 src = input_dir + item
