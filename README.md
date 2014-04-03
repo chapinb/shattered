@@ -42,6 +42,8 @@ Run the script by typing `./shattered.py`
 Windows
 ____
 
+*Running in Windows is very buggy at this stage. If possible use a debian virtual machine to run this code. More stability in future versions*
+
     git clone https://github.com/4n6kid/shattered.git
     
 Download the ADT (20131030) bundle from http://developer.android.com/sdk/index.html
@@ -49,3 +51,7 @@ Download the ADT (20131030) bundle from http://developer.android.com/sdk/index.h
 Unzip the Android SDK and place the tool *adb* in the same directory as shattered.py
 
 Run the script by typing `./shattered.py`
+
+###Developer Notes
+
+Shattered is in its alpha stage. Please report any bugs or feature requests to the issues section of GitHub
