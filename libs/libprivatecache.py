@@ -41,7 +41,7 @@ def pvtcache_version():
     This function prints the version of the code.
     """
     version = 20140320
-    print("Shattered Parser version: ", version)
+    print("Private Cache Parser version: ", version)
 
 def pvtcache_sorter(case_path, parser_folder):
 
@@ -76,6 +76,8 @@ def pvtcache_sorter(case_path, parser_folder):
         pass
         #add method to print and save errors - ie directory already exists
 
+    print ("Began Processing the private cache")
+
     #iterrate through the private-cache and scan/process files
     for root, dirs, files in os.walk(input_dir):
         #print("Root: ", root)
@@ -86,54 +88,54 @@ def pvtcache_sorter(case_path, parser_folder):
         for item in files:
             
             if item[:3] == "bs_":
-                    print("Item name: ", item," is an empty file")
+                    #print("Item name: ", item," is an unknown file")
                     src = input_dir + item
                     copier = other_cache + item
                     shutil.copy(src, copier)
             elif item[:2] == "p_":
-                print("Item name: ", item," is a PNG picture")
+                #print("Item name: ", item," is a PNG picture")
                 src = input_dir + item
                 copier = png_cache + item + ".png"
                 shutil.copy(src, copier)
             elif item[:3] == "gi_":
                 if item[15:] == ".SMALL":
-                    print("Item name: ", item," is a binary file")
+                    #print("Item name: ", item," is a binary file")
                     src = input_dir + item
                     copier = other_cache + item
                     shutil.copy(src, copier)
                 elif item[15:] == ".MESSAGES":
-                    print("Item name: ", item," is a text file")
+                    #print("Item name: ", item," is a text file")
                     src = input_dir + item
                     copier = other_cache + item + ".txt"
                     shutil.copy(src, copier)
             elif item[:2] == "i_":
-                print("Item name: ", item," is an icon file")
+                #print("Item name: ", item," is an icon file")
                 src = input_dir + item
                 copier = icon_cache + item + ".png"
                 shutil.copy(src, copier)
             elif item[:2] == "h_":
-                print("Item name: ", item," is an html file")
+                #print("Item name: ", item," is an html file")
                 src = input_dir + item
                 copier = html_searches + item + ".html"
                 shutil.copy(src, copier)
             elif item[:3] == "ss_":
-                print("Item name: ", item," is an PNG screenshot")
+                #print("Item name: ", item," is an PNG screenshot")
                 src = input_dir + item
                 copier = screenshot + item
                 shutil.copy(src, copier)
             elif item[:3] == "t__":
-                print("Item name: ", item," is an MP4 thumbnail")
+                #print("Item name: ", item," is an MP4 thumbnail")
                 src = input_dir + item
                 copier = thumbnail + item
                 shutil.copy(src, copier)
             elif item[:2] == "t_":
                 if item[28:] == "mp4":
-                    print("Item name: ", item," is an MP4 thumbnail")
+                    #print("Item name: ", item," is an MP4 thumbnail")
                     src = input_dir + item
                     copier = thumbnail + item
                     shutil.copy(src, copier)
                 else:
-                    print("Item name: ", item," is an JPEG thumbnail")
+                    #print("Item name: ", item," is an JPEG thumbnail")
                     src = input_dir + item
                     copier = thumbnail + item + ".jpeg"
                     shutil.copy(src, copier)

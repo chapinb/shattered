@@ -40,7 +40,7 @@ def sqlite_version():
     This function prints the version of the code.
     """
     version = 20140312
-    print("Shattered Parser version: ", version)
+    print("SQLite Parser version: ", version)
     
 def sqlite_parser(infile, outfile, database):
 

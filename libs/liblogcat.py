@@ -104,7 +104,6 @@ def logcat_meta(meta):
     pid = meta_a[3]
     service = meta_a[4]
 
-    print("service" + service)
     service_a = service.split("/")
     level = service_a[0]
     tag = service_a[1]
