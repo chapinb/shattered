@@ -38,7 +38,7 @@ Unzip the Android SDK and place the tool *adb* in `/usr/local/bin/`
 
 Run the script by typing `./shattered.py`
 
-OSX does not run the md5sm at this time after zipping the .tar.gz
+*OSX does not run the md5sm at this time after zipping the .tar.gz*
 
 
 Windows
