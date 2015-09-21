@@ -3,6 +3,8 @@ Shattered
 
 #####*Google Glass Acquisition and Analysis Tool*
 
+***This tool is inteded for research and development purposes only***
+
 ##Overview
 
 
@@ -20,7 +22,7 @@ For additional research on Google Glass, visit http://chapinbryce.com & http://d
 
 Download the latest code via git:
 
-    git clone https://github.com/4n6kid/shattered.git
+    git clone https://github.com/chapinb/shattered.git
 
 ###Dependencies
 
