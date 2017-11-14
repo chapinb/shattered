@@ -18,7 +18,7 @@ For additional research on Google Glass, visit http://chapinbryce.com & http://d
 
 ### Code
 
-*The latest code is available at GitHub https://github.com/4n6kid/shattered*
+*The latest code is available at GitHub https://github.com/chapinb/shattered*
 
 Download the latest code via git:
 
@@ -44,7 +44,7 @@ Run the script by typing `./shattered.py`
 Windows
 ____
 
-    git clone https://github.com/4n6kid/shattered.git
+    git clone https://github.com/chapinb/shattered.git
     
 Download the ADT (20131030) bundle from http://developer.android.com/sdk/index.html
 
