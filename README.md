@@ -1,11 +1,11 @@
 Shattered
 =========
 
-#####*Google Glass Acquisition and Analysis Tool*
+*Google Glass Acquisition and Analysis Tool*
 
 ***This tool is inteded for research and development purposes only***
 
-##Overview
+## Overview
 
 
 Google Glass is a revolutionary technology capable of many mobile device functions including taking pictures and videos, pulling data from the internet, getting directions, and so much more. Essentially Glass is an extension of your mobile phone. 
@@ -16,7 +16,7 @@ Learn more about the Shattered project at the Champlain College Senator Patrick 
 
 For additional research on Google Glass, visit http://chapinbryce.com & http://desautelsja.blogspot.com/
 
-###Code
+### Code
 
 *The latest code is available at GitHub https://github.com/4n6kid/shattered*
 
@@ -24,13 +24,13 @@ Download the latest code via git:
 
     git clone https://github.com/chapinb/shattered.git
 
-###Dependencies
+### Dependencies
 
 Use the Setup script located in the Source tab to download the latest dependencies.
 
 *The setup script only works for debian based linux systems.*
 
-####Manual Dependency Installation
+#### Manual Dependency Installation
 Linux & OSX
 ____
 
