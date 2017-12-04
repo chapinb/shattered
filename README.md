@@ -3,7 +3,7 @@ Shattered
 
 *Google Glass Acquisition and Analysis Tool*
 
-***This tool is inteded for research and development purposes only***
+***This tool is intended for research and development purposes only***
 
 ## Overview
 
